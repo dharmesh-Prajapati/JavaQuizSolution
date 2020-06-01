@@ -5,6 +5,7 @@ import java.util.List;
 
 public class QuizRepeatedWord {
 
+	// a string does not contain repeated character
 	static List<String> alternatingCharacters(String s) {
 		List<String> repeatedString = new ArrayList<String>();
 		
@@ -35,5 +36,17 @@ public class QuizRepeatedWord {
 			System.out.println(str);
 		}
 	}
+
+/* output:
+asd
+sa
+sed
+sawer
+efd
+fgd
+fd
+fd
+
+*/
 
 }
